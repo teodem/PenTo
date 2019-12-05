@@ -1,4 +1,3 @@
-wafw00f
 argparse
 requests
 beautifulsoup4
