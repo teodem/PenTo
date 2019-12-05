@@ -1,4 +1,4 @@
-
+#!/bin/bash
 read TARGET
 
 echo " XSS Scanning"              
