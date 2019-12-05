@@ -4,10 +4,15 @@ ARG DEBIAN_FRONTEND=noninteractive
 
 RUN apt-get update \
  && apt-get install -y \
+      dnsutils \
       git \
+      nmap \
       python \
       python-pip \
       python3 \
+      sslscan \
+      whois \
+      wpscan \
  && git clone https://github.com/teodem/PenTo.git \
  && cd PenTo \
  && chmod -R 777 \
